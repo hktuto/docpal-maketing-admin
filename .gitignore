@@ -10,7 +10,7 @@ Icon
 .Trashes
 ._*
 
-
+package-lock.json
 ############################
 # Linux
 ############################
@@ -79,7 +79,7 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
-public/uploads/*
+# public/uploads/*
 !public/uploads/.gitkeep
 
 ############################
