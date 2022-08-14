@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_slide_slidershows",
+  "info": {
+    "name": "slidershow",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slide.slider"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#fff"
+    }
+  }
+}

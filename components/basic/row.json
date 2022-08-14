@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_basic_rows",
+  "info": {
+    "name": "row",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.column"
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#fff"
+    }
+  }
+}

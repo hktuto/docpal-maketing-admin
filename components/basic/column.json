@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_basic_columns",
+  "info": {
+    "name": "column",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "span": {
+      "type": "integer",
+      "default": 1,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

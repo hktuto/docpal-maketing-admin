@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_basic_spacings",
+  "info": {
+    "name": "spacing",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "height": {
+      "type": "integer"
+    }
+  }
+}

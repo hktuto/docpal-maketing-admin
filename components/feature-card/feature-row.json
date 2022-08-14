@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_feature_card_feature_rows",
+  "info": {
+    "name": "featureRow",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feature-card.feature"
+    },
+    "fullWidth": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "featureType": {
+      "type": "enumeration",
+      "enum": [
+        "grid",
+        "slide"
+      ],
+      "default": "grid"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "mini",
+        "small",
+        "normal",
+        "big",
+        "mega"
+      ],
+      "default": "small"
+    }
+  }
+}
